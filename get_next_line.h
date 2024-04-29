@@ -5,5 +5,5 @@
 #include <unistd.h>
 
 char *get_next_line(int fd);
-
+char *get_next_line2(int fd);
 #endif // GET_NEXT_LINE
