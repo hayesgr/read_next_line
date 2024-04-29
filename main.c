@@ -13,7 +13,8 @@ int main()
     }
     char* t;
     while(1){
-        t = get_next_line(fd);
+        //t = get_next_line(fd);
+        t = get_next_line2(fd);
         if(t==NULL){break;}
         printf("%s",t);
         if(t){free(t);}
